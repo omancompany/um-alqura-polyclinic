@@ -86,7 +86,7 @@ export const DischargeReportModal: React.FC<DischargeReportModalProps> = ({
           <div className="border-b-2 border-[#075563] pb-4 flex items-center justify-between">
             <div className="flex items-center gap-3">
               <img
-                src="/logo.jpg"
+                src="logo.jpg"
                 alt="شعار مجمع أم القرى الطبي"
                 className="h-16 w-auto max-w-[180px] object-contain rounded-xl border border-gray-200 p-1 bg-white"
               />

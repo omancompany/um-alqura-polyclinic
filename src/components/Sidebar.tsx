@@ -174,7 +174,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
         <div className="p-4 border-b border-gray-100 flex items-center justify-between bg-[#FAF8F1]">
           <div className="flex items-center gap-2.5">
             <img
-              src="/logo.jpg"
+              src="logo.jpg"
               alt="شعار مجمع أم القرى الطبي"
               className="h-10 w-auto max-w-[80px] object-contain rounded-lg border border-gray-200 bg-white p-0.5 shadow-2xs"
             />

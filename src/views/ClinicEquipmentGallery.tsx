@@ -7,7 +7,7 @@ export const ClinicEquipmentGallery: React.FC = () => {
     {
       title: 'سرير شد الفقرات العنقية والقطنية المحوسب',
       titleEn: 'Computerized Spinal Decompression & Traction Bed',
-      image: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.54_PM__3__977570fa.jpeg',
+      image: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.54_PM__3__977570fa.jpeg',
       description: 'سرير متطور مجهز بوحدة تحكم كمبيوتر وطباعة رقمية لضبط شد الفقرات العنقية والقطنية بالجرام مع أحزمة تثبيت متدرجة ومساند زاوية للركبتين والحوض.',
       indications: 'الانزلاق الغضروفي، الديسك، عرق النسا، تضيق القناة الفقرية، خشونة فقرات الرقبة والظهر.',
       specs: 'شاشة تحكم إلكترونية • قوة سحب حتى 90 كجم • زوايا سحب قابلة للتعديل من 0 إلى 30 درجة.'
@@ -15,7 +15,7 @@ export const ClinicEquipmentGallery: React.FC = () => {
     {
       title: 'جهاز الموجات التصادمية الحديث BTL',
       titleEn: 'BTL Radial Shockwave Therapy System',
-      image: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.55_PM__1__39013166.jpeg',
+      image: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.55_PM__1__39013166.jpeg',
       description: 'أحدث تقنيات الموجات الصوتية التصادمية لتفتيت التكلسات، وتحفيز إعادة بناء الأنسجة والأوتار، وتخفيف التشنجات العضلية المزمنة وتسريع الشفاء.',
       indications: 'شوكة العظم بالقدم (Plantar Fasciitis)، التهاب وتر أخيل، تكلسات الكتف، كوع التنس، خشونة الركبة.',
       specs: 'تردد 1-20 هرتز • ضغط حتى 5 بار • عداد ضربات رقمي • بروتوكولات مبرمجة سلفاً.'
@@ -23,7 +23,7 @@ export const ClinicEquipmentGallery: React.FC = () => {
     {
       title: 'جهاز العلاج الكهربائي والموجات فوق الصوتية BTL 4000',
       titleEn: 'BTL 4000 Combined Electrotherapy & Ultrasound',
-      image: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.57_PM_b31e37c1.jpeg',
+      image: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.57_PM_b31e37c1.jpeg',
       description: 'جهاز مزدوج رائد عالمياً يجمع بين التيارات الكهربائية المسكنة والمحفزة (TENS/Interferential/Russian) ومسبار الموجات فوق الصوتية برأس مضيء 1 و 3 ميجاهرتز.',
       indications: 'تسكين الألم الحاد والمزمن، التورم بعد العمليات، إعادة تأهيل العضلات، تسريع التئام الأوتار.',
       specs: 'شاشة لمس ملونة • قناتين كهربائيتين مستقلتين • مسبار موجات فوق صوتية متعدد الترددات.'
@@ -31,7 +31,7 @@ export const ClinicEquipmentGallery: React.FC = () => {
     {
       title: 'جهاز التدليك وأحذية الضغط الليمفاوي الهوائي',
       titleEn: 'Pneumatic Air Compression Boots & Cuffs',
-      image: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.55_PM__4__3ccc8480.jpeg',
+      image: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.55_PM__4__3ccc8480.jpeg',
       description: 'أكمام وأحذية ضغط هوائي متسلسل لتنشيط الدورة الدموية، وتصريف التورمات الليمفاوية، وتسريع الاستشفاء الرياضي بعد الجهد الشاق والعمليات الجراحية.',
       indications: 'تورم الساقين، الوذمة الليمفاوية، تأهيل ما بعد جراحة الرباط الصليبي والكسور، تنشيط الدورة الدموية.',
       specs: 'مضخة هواء ذكية متعددة الغرف • تحكم دقيق في الضغط من 20 إلى 200 mmHg • أكمام للساقين والذراعين والخصر.'
@@ -39,7 +39,7 @@ export const ClinicEquipmentGallery: React.FC = () => {
     {
       title: 'صالة التأهيل الرياضي والجيم الطبي الحركي',
       titleEn: 'Medical Rehabilitation Gym & Parallel Bars',
-      image: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.58_PM_4f83512b.jpeg',
+      image: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.58_PM_4f83512b.jpeg',
       description: 'صالة تأهيلية متكاملة تضم متوازي المشي الطبي، دراجات التأهيل الحركي، أجهزة المقاومة والأثقال الحركية، كرات التوازن، وألواح الثبات الحركي.',
       indications: 'تأهيل الرياضيين والعودة للملاعب (RTP)، تأهيل كبار السن، تدريب التوازن ومنع السقوط، إعادة اكتساب المشي.',
       specs: 'أرضيات ماصة للصدمات • متوازي مشي من الستانلس ستيل • مرايا فحص القوام • بكرات مقاومة متدرجة.'
@@ -47,7 +47,7 @@ export const ClinicEquipmentGallery: React.FC = () => {
     {
       title: 'أجنحة وغرف العلاج السريري الخاص',
       titleEn: 'Private Treatment Bays with BTL Equipment',
-      image: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.56_PM__1__82ba14c8.jpeg',
+      image: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.56_PM__1__82ba14c8.jpeg',
       description: 'غرف علاجية مجهزة بأسرة طبية مريحة وأنظمة تعقيم عالي، مخصصة لتقديم جلسات العلاج اليدوي والموجات التصادمية في خصوصية وسكينة تامة.',
       indications: 'جلسات العلاج الفردية المتخصصة تحت إشراف د. سبأ للمريضات والأخصائي للمرضى الذكور.',
       specs: 'أسرة طبية هيدروليكية • وحدات أجهزة متنقلة • ستائر خصوصية عازلة • تجهيزات أمان وسلامة.'
@@ -55,7 +55,7 @@ export const ClinicEquipmentGallery: React.FC = () => {
     {
       title: 'المدخل الرئيسي لمجمع أم القرى الطبي',
       titleEn: 'Um Alqura Polyclinic Main Entrance - Office 3',
-      image: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.55_PM__2__5715f662.jpeg',
+      image: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.55_PM__2__5715f662.jpeg',
       description: 'أبواب زجاجية رسمية بشعار مجمع أم القرى الطبي - إشراف الإدارة العامة، بناية R&B - ولاية بركاء بجوار مستشفى بدر السماء.',
       indications: 'سهولة الوصول ومصاعد مهيأة لذوي الإعاقة وكبار السن.',
       specs: 'بناية R&B • مواقف سيارات واسعة • تجهيزات مطابقة لمواصفات وزارة الصحة العمانية.'
@@ -63,7 +63,7 @@ export const ClinicEquipmentGallery: React.FC = () => {
     {
       title: 'صالة الاستقبال والانتظار العمانية الأصيلة',
       titleEn: 'Reception & Patient Care Waiting Lounge',
-      image: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.57_PM__2__32373791.jpeg',
+      image: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.57_PM__2__32373791.jpeg',
       description: 'صالة استقبال حديثة بتشطيب رخامي فاخر، ومزينة بصور السلاطين، تقدم بيئة هادئة ومريحة للمراجعين وموظفة استقبال لتنظيم المواعيد والتأمين.',
       indications: 'استقبال المراجعين وتسجيل المواعيد خماسية الأبعاد وتأكيد الحضور.',
       specs: 'نظام نداء إلكتروني • مقاعد انتظار مريحة • خدمة استفسارات واتساب فورية.'

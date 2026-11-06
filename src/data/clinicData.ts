@@ -13,7 +13,7 @@ import {
 export const CLINIC_INFO = {
   nameAr: 'مجمع أم القرى الطبي',
   nameEn: 'Um Alqura Polyclinic',
-  logo: '/logo.jpg',
+  logo: 'logo.jpg',
   mottoAr: 'صحتك.. أولويتنا',
   mottoEn: 'Your Health, Our Priority',
   specialtyAr: 'العلاج الطبيعي والتأهيل الطبي فقط',
@@ -36,14 +36,14 @@ export const CLINIC_INFO = {
   },
   culturalComplianceNotice: 'التزام تام بالخصوصية والتقاليد العُمانية الأصيلة: كادر طبي بقيادة د. سبأ للمريضات وكافة أجهزة التأهيل الحديثة',
   heroImages: {
-    entrance: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.55_PM__2__5715f662.jpeg',
-    reception: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.57_PM__2__32373791.jpeg',
-    treatmentRoom: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.56_PM__1__82ba14c8.jpeg',
-    tractionBed: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.54_PM__3__977570fa.jpeg',
-    shockwavePoster: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.58_PM__1__a747ffff.jpeg',
-    medicalGym: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.58_PM_4f83512b.jpeg',
-    comboDevice: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.57_PM_b31e37c1.jpeg',
-    airCompression: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.55_PM__4__3ccc8480.jpeg',
+    entrance: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.55_PM__2__5715f662.jpeg',
+    reception: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.57_PM__2__32373791.jpeg',
+    treatmentRoom: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.56_PM__1__82ba14c8.jpeg',
+    tractionBed: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.54_PM__3__977570fa.jpeg',
+    shockwavePoster: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.58_PM__1__a747ffff.jpeg',
+    medicalGym: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.58_PM_4f83512b.jpeg',
+    comboDevice: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.57_PM_b31e37c1.jpeg',
+    airCompression: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.55_PM__4__3ccc8480.jpeg',
   }
 };
 
@@ -110,7 +110,7 @@ export const INITIAL_DEVICES: MedicalDevice[] = [
     nameEn: 'Cervical & Lumbar Traction Computerized Unit',
     type: 'cervical_lumbar_traction',
     model: 'Computerized Spinal Decompression Bed & Terminal',
-    image: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.54_PM__3__977570fa.jpeg',
+    image: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.54_PM__3__977570fa.jpeg',
     status: 'available',
     safetyLimitMinutes: 30,
     safetyIntensityLimit: 'حمل الشد الأقصى: 25-50% من وزن الجسم للقطنية / 10-15% للعنقية',
@@ -122,7 +122,7 @@ export const INITIAL_DEVICES: MedicalDevice[] = [
     nameEn: 'BTL Shockwave Therapy System',
     type: 'shockwave_btl',
     model: 'BTL Radial Shockwave Therapy',
-    image: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.55_PM__1__39013166.jpeg',
+    image: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.55_PM__1__39013166.jpeg',
     status: 'available',
     safetyLimitMinutes: 20,
     safetyIntensityLimit: 'أقصى طاقة 2.5 بار / 2000-2500 ضربة للجلسة',
@@ -134,7 +134,7 @@ export const INITIAL_DEVICES: MedicalDevice[] = [
     nameEn: 'BTL 4000 Combined Electrotherapy & Ultrasound',
     type: 'electrotherapy_ultrasound_btl4000',
     model: 'BTL 4000 Smart Electro + Ultrasound',
-    image: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.57_PM_b31e37c1.jpeg',
+    image: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.57_PM_b31e37c1.jpeg',
     status: 'available',
     safetyLimitMinutes: 25,
     safetyIntensityLimit: 'الكهرباء: 0-40 mA، الموجات: 0.5 - 2.0 W/cm2',
@@ -146,7 +146,7 @@ export const INITIAL_DEVICES: MedicalDevice[] = [
     nameEn: 'Pneumatic Air Compression Boots & Cuffs',
     type: 'air_compression_boots',
     model: 'Air Compression Recovery Massage System',
-    image: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.55_PM__4__3ccc8480.jpeg',
+    image: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.55_PM__4__3ccc8480.jpeg',
     status: 'available',
     safetyLimitMinutes: 30,
     safetyIntensityLimit: 'ضغط الهواء الآمن 60-120 mmHg',
@@ -158,7 +158,7 @@ export const INITIAL_DEVICES: MedicalDevice[] = [
     nameEn: 'Rehabilitation Medical Gym & Parallel Bars',
     type: 'medical_gym',
     model: 'Medical Gym & Functional Training Set',
-    image: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.58_PM_4f83512b.jpeg',
+    image: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.58_PM_4f83512b.jpeg',
     status: 'available',
     safetyLimitMinutes: 45,
     safetyIntensityLimit: 'حسب البروتوكول ومعدل ضربات القلب والجهد METs',
@@ -170,7 +170,7 @@ export const INITIAL_DEVICES: MedicalDevice[] = [
     nameEn: 'Manual Therapy & Hands-on Mobilization',
     type: 'manual_none',
     model: 'Hands-on Clinical Joint Mobilization',
-    image: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.56_PM__1__82ba14c8.jpeg',
+    image: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.56_PM__1__82ba14c8.jpeg',
     status: 'available',
     safetyLimitMinutes: 45,
     room: 'جميع غرف الكشف'
@@ -221,7 +221,7 @@ export const HOME_EXERCISES: HomeExercise[] = [
     frequency: 'مرتين يومياً (صباحاً ومساءً)',
     instructions: 'اجلس مستقيماً واجعل نظرك للأمام مباشرة. ادفع ذقنك للخلف بلطف كما لو أنك تصنع ذقناً مزدوجاً دون إمالة رأسك لأسفل. اثبت 5 ثوانٍ ثم استرخِ.',
     safetyCautions: 'توقف فوراً إذا شعرت بدوخة أو وخز كهربائي ممتد للأصابع.',
-    thumbnailUrl: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.58_PM_4f83512b.jpeg',
+    thumbnailUrl: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.58_PM_4f83512b.jpeg',
     modestGuidelines: 'تمرين يؤدى بملابس مريحة ومحتشمة في بيئة منزلية هادئة.'
   },
   {
@@ -237,7 +237,7 @@ export const HOME_EXERCISES: HomeExercise[] = [
     frequency: 'يومياً بمعدل مرتين',
     instructions: 'استلقِ على ظهرك واثنِ إحدى الركبتين، واجعل الساق الأخرى ممدودة تماماً. شد عضلة الفخذ الأمامية وارفع ساقك المستقيمة 20 سم عن الأرض. اثبت لثوانٍ ثم انزل ببطء.',
     safetyCautions: 'احرص ألا يرتفع أسفل ظهرك عن السطح المستوي أثناء الرفع.',
-    thumbnailUrl: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.56_PM__1__82ba14c8.jpeg',
+    thumbnailUrl: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.56_PM__1__82ba14c8.jpeg',
     modestGuidelines: 'ينفذ على سجادة التمارين في مكان خاص بالمنزل.'
   },
   {
@@ -253,7 +253,7 @@ export const HOME_EXERCISES: HomeExercise[] = [
     frequency: '3 مرات يومياً لتليين المحفظة المفصلية',
     instructions: 'انحنِ للأمام مستنداً بيدك السليمة على طاولة ثابتة. دع الذراع المصابة تتدلى بحرية كاملة كالبندول. حرك جذعك بلطف بحركات دائرية صغيرة مع استرخاء عضلات الكتف تماماً.',
     safetyCautions: 'لا تستخدم عضلات كتفك في الحركة، بل دع الجاذبية وتأرجح الجذع يقومان بالمهمة.',
-    thumbnailUrl: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.57_PM__4__ad1d6296.jpeg',
+    thumbnailUrl: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.57_PM__4__ad1d6296.jpeg',
     modestGuidelines: 'تمرين لطيف وآمن ومناسب لجميع الأعمار.'
   },
   {
@@ -269,7 +269,7 @@ export const HOME_EXERCISES: HomeExercise[] = [
     frequency: 'يومياً مرة واحدة',
     instructions: 'استلقِ على الظهر مع ثني الركبتين والقدمين مستويتين على الأرض. ارفع الحوض للأعلى حتى يشكل جسمك خطاً مستقيماً من الركبتين للكتفين مع شد عضلات الحوض والبطن.',
     safetyCautions: 'تجنب المبالغة في تقويس الظهر للأعلى لحماية الفقرات القطنية.',
-    thumbnailUrl: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.54_PM__3__977570fa.jpeg',
+    thumbnailUrl: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.54_PM__3__977570fa.jpeg',
     modestGuidelines: 'يتم التمرين بكل حشمة في غرفة المريض الخاصة.'
   },
   {
@@ -285,7 +285,7 @@ export const HOME_EXERCISES: HomeExercise[] = [
     frequency: 'يومياً بمساعدة أو قرب جدار آمن',
     instructions: 'قف بجانب طاولة ثابتة ممسكاً بها بإحدى اليدين للأمان. ضع كعب إحدى القدمين مباشرة أمام أصابع القدم الأخرى في خط مستقيم. حافظ على اتزانك 10 ثوانٍ مع التنفس المنتظم.',
     safetyCautions: 'يجب وجود مسند ثابت أو جدار دائم بجانبك أو أحد أفراد الأسرة للمساعدة.',
-    thumbnailUrl: '/assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.58_PM_4f83512b.jpeg',
+    thumbnailUrl: 'assets/aistudio/WhatsApp_Image_2026-10-25_at_3.16.58_PM_4f83512b.jpeg',
     modestGuidelines: 'تمرين مخصص لكبار السن بإشراف عائلي دافئ ومحترم.'
   }
 ];

@@ -85,7 +85,7 @@ export const Header: React.FC<HeaderProps> = ({
 
           <div className="flex items-center gap-3">
             <img
-              src="/logo.jpg"
+              src="logo.jpg"
               alt="شعار مجمع أم القرى الطبي"
               className="h-12 w-auto max-w-[130px] object-contain rounded-xl shadow-xs border border-gray-100 flex-shrink-0 bg-white p-0.5"
             />
@@ -181,7 +181,7 @@ export const Header: React.FC<HeaderProps> = ({
             <div className="flex items-center justify-between border-b border-gray-100 pb-3">
               <div className="flex items-center gap-2.5">
                 <img
-                  src="/logo.jpg"
+                  src="logo.jpg"
                   alt="شعار مجمع أم القرى الطبي"
                   className="w-10 h-10 object-contain rounded-xl border border-gray-200 bg-white p-0.5"
                 />

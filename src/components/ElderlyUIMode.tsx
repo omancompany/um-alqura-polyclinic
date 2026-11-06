@@ -34,7 +34,7 @@ export const ElderlyUIMode: React.FC<ElderlyUIModeProps> = ({ onBack }) => {
 
         <div className="flex items-center gap-3">
           <img
-            src="/logo.jpg"
+            src="logo.jpg"
             alt="شعار مجمع أم القرى الطبي"
             className="h-12 w-auto max-w-[120px] object-contain rounded-xl border border-gray-200 bg-white p-0.5"
           />
